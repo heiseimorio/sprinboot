@@ -35,6 +35,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<!-- Thymeleafを使用する為に追加 -->
+		<dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+
 	</dependencies>
 
 	<build>
