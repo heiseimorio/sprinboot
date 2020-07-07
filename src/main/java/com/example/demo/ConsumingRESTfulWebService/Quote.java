@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.ConsumingRESTfulWebService;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
