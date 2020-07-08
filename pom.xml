@@ -55,6 +55,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- Validationに関するアノテーションを使用する為に追加 -->
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>

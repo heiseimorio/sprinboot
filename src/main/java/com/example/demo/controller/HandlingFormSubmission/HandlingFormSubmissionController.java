@@ -15,12 +15,12 @@ public class HandlingFormSubmissionController {
   @GetMapping("/greeting")
   public String greetingForm(Model model) {
     model.addAttribute("greeting", new Greeting());
-    return "greeting";
+    return "HandlingFormSubmission/greeting";
   }
 
   @PostMapping("/greeting")
   public String greetingSubmit(@ModelAttribute Greeting greeting) {
-    return "result";
+    return "HandlingFormSubmission/result";
   }
 
 }
